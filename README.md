@@ -46,10 +46,16 @@ brew install terraform
 
 **Альтернатива — скрипт установки:**
 ```bash
-curl -sL -o setup-terraform.sh https://raw.githubusercontent.com/yuknov-claw/ADV_TF_PaaS_Samples/main/setup-terraform.sh
-sudo bash setup-terraform.sh
+# Шаг 1. Скачайте скрипт
+curl -sL -o tf_installer.sh https://raw.githubusercontent.com/yuknov-claw/ADV_TF_PaaS_Samples/main/setup-terraform.sh
+
+# Шаг 2. Дайте права на запуск
+chmod +x tf_installer.sh
+
+# Шаг 3. Запустите (потребуются права root)
+sudo ./tf_installer.sh
 ```
-Скрипт сам определит ОС, архитектуру, предложит меню выбора версии.
+Скрипт сам определит вашу ОС и архитектуру, предложит меню выбора версии.
 
 ### 2. Получите credentials
 
