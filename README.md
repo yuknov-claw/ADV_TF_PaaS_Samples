@@ -44,6 +44,13 @@ brew install terraform
 **Windows:**
 Скачайте exe с [terraform.io/downloads](https://developer.hashicorp.com/terraform/downloads) и добавьте в PATH.
 
+**Альтернатива — скрипт установки:**
+```bash
+curl -sL -o setup-terraform.sh https://raw.githubusercontent.com/yuknov-claw/ADV_TF_PaaS_Samples/main/setup-terraform.sh
+sudo bash setup-terraform.sh
+```
+Скрипт сам определит ОС, архитектуру, предложит меню выбора версии.
+
 ### 2. Получите credentials
 
 В консоли Cloud.ru Advanced: **IAM → Управление доступом → Ключи доступа (AK/SK)**
