@@ -1,0 +1,4 @@
+access_key          = "AK_YOUR_ACCESS_KEY"
+secret_key          = "SK_YOUR_SECRET_KEY"
+mrs_admin_password  = "AdminPass123!"
+mrs_node_password   = "NodePass123!"

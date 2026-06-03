@@ -1,0 +1,3 @@
+access_key     = "AK_YOUR_ACCESS_KEY"
+secret_key     = "SK_YOUR_SECRET_KEY"
+mongo_password = "MongoPass123!"
