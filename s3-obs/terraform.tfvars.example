@@ -1,2 +1,5 @@
 access_key = "AK_YOUR_ACCESS_KEY"
 secret_key = "SK_YOUR_SECRET_KEY"
+
+# Регион (по умолчанию ru-moscow-1)
+# region = "ru-central-1"
