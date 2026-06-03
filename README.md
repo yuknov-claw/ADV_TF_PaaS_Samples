@@ -51,7 +51,7 @@ terraform plan                 # показать что будет создан
 terraform apply                # создать ресурсы
 ```
 
-> **⚠️ ВАЖНО:** Перед `terraform apply` — обязательно покажите `terraform plan` вашему архитектору (Юлию).
+> **⚠️ ВАЖНО:** Перед `terraform apply` — обязательно покажите `terraform plan` вашему архитектору для проверки.
 
 ### 5. Что делать после apply
 
@@ -110,6 +110,8 @@ provider "sbercloud" {
 ```
 
 Релизы провайдера: https://github.com/sbercloud-terraform/terraform-provider-sbercloud/releases
+
+Документация Cloud.ru Advanced: https://docs.cloud.ru/advanced/
 
 ---
 
