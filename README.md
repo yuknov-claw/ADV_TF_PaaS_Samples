@@ -138,7 +138,7 @@ provider "sbercloud" {
 
 Релизы провайдера: https://github.com/sbercloud-terraform/terraform-provider-sbercloud/releases
 
-Документация Cloud.ru Advanced: https://docs.cloud.ru/advanced/
+Документация Cloud.ru Advanced: https://cloud.ru/docs/advanced
 
 ---
 
