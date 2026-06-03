@@ -9,7 +9,7 @@
 
 Официальная инструкция: [Install Terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
 
-**Linux (Ubuntu/Debian) — быстрая установка:**
+**Linux (Ubuntu/Debian, x86_64):**
 ```bash
 sudo apt update && sudo apt install -y wget unzip
 wget https://hashicorp-releases.yandexcloud.net/terraform/1.9.8/terraform_1.9.8_linux_amd64.zip
@@ -18,9 +18,31 @@ sudo mv terraform /usr/local/bin/
 terraform --version
 ```
 
-**macOS:** `brew install terraform`
+**Linux (Ubuntu/Debian, ARM64):**
+```bash
+sudo apt update && sudo apt install -y wget unzip
+wget https://hashicorp-releases.yandexcloud.net/terraform/1.9.8/terraform_1.9.8_linux_arm64.zip
+unzip terraform_1.9.8_linux_arm64.zip
+sudo mv terraform /usr/local/bin/
+terraform --version
+```
 
-**Windows:** скачайте с [terraform.io/downloads](https://developer.hashicorp.com/terraform/downloads)
+**Linux (RHEL/CentOS/Fedora, x86_64):**
+```bash
+sudo yum install -y wget unzip
+wget https://hashicorp-releases.yandexcloud.net/terraform/1.9.8/terraform_1.9.8_linux_amd64.zip
+unzip terraform_1.9.8_linux_amd64.zip
+sudo mv terraform /usr/local/bin/
+terraform --version
+```
+
+**macOS (Intel и Apple Silicon):**
+```bash
+brew install terraform
+```
+
+**Windows:**
+Скачайте exe с [terraform.io/downloads](https://developer.hashicorp.com/terraform/downloads) и добавьте в PATH.
 
 ### 2. Получите credentials
 
