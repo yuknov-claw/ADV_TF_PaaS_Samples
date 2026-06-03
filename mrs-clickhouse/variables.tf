@@ -20,3 +20,9 @@ variable "mrs_node_password" {
   type        = string
   sensitive   = true
 }
+
+
+variable "region" {
+  description = "Регион Cloud.ru Advanced"
+  default     = "ru-moscow-1"
+}

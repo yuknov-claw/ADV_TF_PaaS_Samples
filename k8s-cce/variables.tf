@@ -13,3 +13,9 @@ variable "key_pair" {
   description = "Имя SSH-ключевой пары для доступа к worker-нодам"
   type        = string
 }
+
+
+variable "region" {
+  description = "Регион Cloud.ru Advanced"
+  default     = "ru-moscow-1"
+}

@@ -8,3 +8,9 @@ variable "secret_key" {
   type        = string
   sensitive   = true
 }
+
+
+variable "region" {
+  description = "Регион Cloud.ru Advanced"
+  default     = "ru-moscow-1"
+}

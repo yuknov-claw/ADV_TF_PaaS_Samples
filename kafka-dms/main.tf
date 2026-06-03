@@ -10,7 +10,7 @@ terraform {
 }
 
 provider "sbercloud" {
-  region     = "ru-moscow-1"
+  region     = var.region
   access_key = var.access_key
   secret_key = var.secret_key
 }
